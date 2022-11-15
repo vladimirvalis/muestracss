@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+
+/* Config. global de la pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Config. Generales */
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body  html{
+    overflow-x: hidden;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+
+/* Header  y Titulos */
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imagenes/fondo.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn{
+    padding: 10px 5px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+/* Inicio de navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 20px;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+/* Segunda parte de la pagina */
+
+.tittle{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(73,73,126);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.events .row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 3vmin;
+    color: #484872;
+}
+
+p{
+    color:#707070;
+    padding: 0px 40px;
+}
+
+.ctn2{
+    padding: 15px 5px;
+    padding-left: 5px;
+    margin: 20px auto;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.events .ctn2{
+    margin-top: 20px;
+}
+
+.img{
+    height: 400px;
+    width: 550px;
+    padding-left: 100px;
+}
+
+/* Tercera parte de la pagina */
+
+.explore{
+    width: 100%;
+    height: 100%;
+    background-image: url(./imagenes/fondo_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content{
+    width: 60px;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1{
+    font-size: 7vmin;
+    padding-left: 500px;
+}
+
+.explore-content .line{
+    margin-bottom: 50px;
+    margin-left: 170px;
+}
+
+.explore-content h1{
+    font-size: 7vmin;
+    padding-left: 500px;
+}
+
+.explore-content .line{
+    margin-bottom: 50px;
+    margin-left: 170px;
+}
+
+.explore-content p{
+    color: rgb(221, 221, 221);
+    padding-left: 500px;
+}
+
+.explore-content .ctn {
+    margin-top: 40px;
+    margin-left: 425px;
+}
+
+.ctn3{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 450px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+/* Cuarta parte de la página */
+.tours {
+    margin-left: 250px;
+}
+
+.content-col{
+    width: 40%;
+}
+
+.tours .row .col{
+    width: 50%;
+}
+
+div > div > img{
+    width: 250px;
+    padding: 10px;
+}
+
+.content-col h1{
+    font-size: 7vmin;
+    color: #484472;
+}
+
+.content-col line{
+    border-left: 50px;
+}
+
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
+
+.ctn4{
+    padding: 15px 5px;
+    padding-left: 5px;
+    margin: 20px auto;
+    background: #190aec;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #480293;
+    text-align: center;
+}
